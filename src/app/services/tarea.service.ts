@@ -8,7 +8,7 @@ import { Tarea } from '../model/tarea';
 })
 export class TareaService {
 
-  private apiUrl = 'http://localhost:8080/api/tareas'; // ajusta si tu endpoint cambia
+  private apiUrl = 'http://localhost:8080/api/tareas';
 
   constructor(private http: HttpClient) {}
 
