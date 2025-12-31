@@ -1,0 +1,91 @@
+/* tareas.component.css */
+.tareas-container {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #1a2c44;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.input-group button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #83ca87;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.input-group button:hover {
+  background-color: #6fb573;
+}
+
+.tareas-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tareas-lista li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: background-color 0.2s;
+}
+
+.tareas-lista li:hover {
+  background-color: #e9f5ea;
+}
+
+.tareas-lista li label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.tareas-lista li.completada span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.eliminar-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s;
+}
+
+.eliminar-btn:hover {
+  transform: scale(1.2);
+  color: red;
+}
