@@ -4,7 +4,8 @@ import { Tarea } from '../../model/tarea';
 
 @Component({
   selector: 'app-tareas',
-  templateUrl: './tareas.component.html'
+  templateUrl: './tareas.component.html',
+  styleUrls: ['./tareas.component.css']
 })
 export class TareasComponent implements OnInit {
 
